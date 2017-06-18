@@ -1,0 +1,211 @@
+body {
+    font-family: "FF Meta Serif", serif;
+    width: 100%;
+    background: aqua;
+    box-sizing: border-box;
+    min-height: 100%;
+}
+
+.table {
+    width: 576px;
+    height: 575px;
+    margin: 50px 300px;
+    border: 15px solid black;
+    background: green;
+    font-size: 0;
+}
+
+.row {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+}
+
+.box1 {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background: black;
+}
+
+.box {
+    width: 32px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background: #000000;
+    color: #ffffff;
+}
+
+.box2 {
+    width: 64px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 25px;
+    font-family: "FF Meta Serif", serif;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+    background: #000000;
+    color: #ffffff;
+}
+
+li {
+    width: 64px;
+    height: 64px;
+    border: none;
+}
+
+.box3 {
+    width: 64px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+    background: #000000;
+    color: #ffffff;
+}
+
+.box4 {
+    width: 64px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+    background: #000000;
+    color: #ffffff;
+}
+
+.box5 {
+    width: 64px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+    background: #000000;
+    color: #ffffff;
+}
+
+.box6 {
+    width: 64px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+    background: #000000;
+    color: #ffffff;
+}
+
+.box7 {
+    width: 64px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+    background: #000000;
+    color: #ffffff;
+}
+
+.box8 {
+    width: 64px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+    background: #000000;
+    color: #ffffff;
+}
+
+.box9 {
+    width: 64px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+    background: #000000;
+    color: #ffffff;
+}
+
+.white {
+    background-color: whitesmoke;
+}
+
+.black {
+    background-color: black;
+}
+
+div {
+    display: block;
+}
+
+.white_b {
+    position: relative;
+    background-color: white;
+}
+
+.checkers_b {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    background-color: black;
+    cursor: pointer;
+}
+
+.black_w {
+    position: relative;
+    background-color: black;
+}
+
+.chekers_w {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.checkers_b:hover {
+    background-color: brown;
+}
+
+.chekers_w:hover {
+     background-color: brown;
+}
+
+
